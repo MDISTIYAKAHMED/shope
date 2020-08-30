@@ -577,7 +577,7 @@
     }
     .trending_sec .trending_container .sec_two .title_cardSec{
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
     }
     /* !  --__--__Trending Section End   __---__--__--*/
     /* !  --__--__ Tech, Health, Smart_home Section Start __---__--__--*/
@@ -647,7 +647,7 @@
     /* !  --__--__Trending Section Start   __---__--__--*/
     .trending_sec .trending_container .sec_two .title_cardSec{
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-rows: repeat(12, 1fr);
     }
     .trending_sec .title_post img{
         height: 20rem;
