@@ -1,0 +1,249 @@
+.smart_home .smart_home_container
+{
+    width: 100%;
+    height: auto;
+    margin: 0 0 2rem 0;
+}
+
+.smart_home .smart_home_container .section_bar
+{
+    width: 100%;
+    height: auto;
+    margin: 2rem 0 2rem 0;
+    padding: 0 2rem;
+}
+
+.smart_home .smart_home_container .section_bar .section_div
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0.7rem 0;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.smart_home .smart_home_container .section_bar .section_div img{
+    width: 2.2rem;
+    height: 1.9rem;
+}
+
+.smart_home .smart_home_container .section_bar .section_div span
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0 0 0 0.5rem;
+}
+
+.smart_home .smart_home_container .highlight_card
+{
+    margin: 0 2rem 2rem 2rem;
+    position: relative;
+}
+
+.smart_home .smart_home_container .highlight_card .img_link
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.smart_home .smart_home_container .highlight_card a img
+{
+    width: 100%;
+    height: 50rem;
+    display: block;
+}
+
+.smart_home .smart_home_container .highlight_card .star
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.smart_home .smart_home_container .highlight_card .little_title
+{
+    padding: 0.5rem;
+    background-color: #10608f;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #ececec;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.smart_home .smart_home_container .highlight_card .title_link
+{
+    width: 100%;
+    height: auto;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: #dddddd;
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+}
+
+.smart_home .smart_home_container .highlight_card .title_pera
+{
+    color: #1d1d1d;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0.2rem 0 0 0;
+}
+
+.smart_home .smart_home_container .small_product
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin: 0 2rem;
+}
+
+.smart_home .smart_home_container .small_product div
+{
+    position: relative;
+}
+
+.smart_home .smart_home_container .small_product div .img_link
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+.smart_home .smart_home_container .small_product div a img
+{
+    width: 100%;
+    height: 22rem;
+    display: block;
+    margin: 0 0 1rem 0;
+}
+.smart_home .smart_home_container .small_product div .star
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.smart_home .smart_home_container .small_product div .little_title
+{
+    padding: 0.5rem;
+    background-color: #10608f;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #ececec;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.smart_home .smart_home_container .small_product div .title_link
+{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+
+.smart_home .smart_home_container .small_product div .description
+{
+    color: #1d1d1d;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0.2rem 0 0 0;
+}
+
+.smart_home .smart_home_container .small_product div:hover .title_link
+{
+    color: #10608f;
+}
+
+.smart_home .smart_home_container .highlight_card:hover .title_link
+{
+    color: #10608f;
+}
+.body_container .tech .tech_container .zmdi,
+.body_container .health .health_container .zmdi,
+.body_container .smart_home .smart_home_container .zmdi
+{
+    color: #ffb723;
+    font-size: 1.4rem;
+}
+.body_container .smart_home .smart_home_container .halfSar{
+    color: #ffb723;
+}
+.body_container .smart_home .smart_home_container .noneStar{
+    color: #adadad;
+}
+
+@media screen and (max-width: 860px){
+
+    .smart_home .smart_home_container .small_product
+    {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    .smart_home .smart_home_container .highlight_card a img {
+        width: 100%;
+        height: 44rem;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 720px){
+
+    .smart_home .smart_home_container .highlight_card a img
+    {
+        height: 28rem;
+    }
+
+}
+
+@media screen and (max-width: 545px){
+
+
+    .smart_home .smart_home_container .small_product
+    {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        justify-content: center;
+    }
+
+    .smart_home .smart_home_container .highlight_card a img
+    {
+        height: 18rem;
+    }
+
+    .smart_home .smart_home_container .highlight_card .title_link
+    {
+        font-size: 1.6rem;
+    }
+
+    .smart_home .smart_home_container .small_product div .title_link
+    {
+        font-size: 1.6rem;
+    }
+
+    .smart_home .smart_home_container .small_product div .description
+    {
+        font-size: 1.4rem;
+    }
+
+    .smart_home .smart_home_container .small_product div a img
+    {
+        width: 100%;
+        height: 18rem;
+        margin: 0 0 1rem 0;
+    }
+
+}

@@ -1,0 +1,757 @@
+/* !  --__--__Trending Section Start__---__--__--*/
+/* ? Trending Title Part // First Two Part Stat*/
+.trending_sec{
+    margin: 2rem 0;
+}
+.trending_sec .trending_container .sec_one{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2rem;
+    padding: 0 2rem;
+}
+.trending_sec .title_post img{
+    width: 100%;
+    height: 40rem;
+}
+.trending_sec .trending_container .sec_one .title_link .link_title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-top: 1px dotted #000000;
+    border-bottom: 1px dotted #000000;
+    padding: 0.7rem 0;
+}
+.trending_sec .trending_container .sec_one .title_link .link_title .title_star{
+    color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 1.5rem 0 0;
+    background-color: #2f6e91;
+}
+.trending_sec .trending_container .sec_one .title_link .link_title a{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+} 
+.trending_sec .trending_container .sec_one .title_post .header_link{
+    text-decoration: none;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 600;
+    display: block;
+    padding: 1rem 1rem;
+    background-color: #e2e2e2;
+    margin-top: -5px;
+}
+.trending_sec .trending_container .sec_one .title_post:hover .header_link{
+    color: #10608f;
+}
+.trending_sec .trending_container .sec_one .title_link a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.7rem;
+    display: block;
+    font-weight: 600;
+    padding: 1rem 0  1rem 0;
+    border-bottom: 1px dotted #000000;
+}
+.trending_sec .trending_container .sec_one a:hover{
+    color: #10608f;
+}
+/* ? Trending Title Card  Section Start//  First  Five Card*/
+.trending_sec .trending_container .sec_two{
+    padding: 0 2rem;
+}
+.trending_sec .trending_container .sec_two .title_cardSec{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.trending_sec .trending_container .sec_two{
+    margin: 2rem 0;
+}
+.trending_sec .trending_container .sec_two .title_cardSec img{
+    width: 100%;
+    height: 22rem;
+}
+.trending_sec .trending_container .sec_two .title_cardSec .link_a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.7rem;
+    display: block;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    background-color: #e2e2e2;
+    margin-top: -5px;
+}
+.trending_sec .trending_container .sec_two .title_cardSec .link_a:hover{
+    color: #10608f;
+}
+.trending_sec .trending_container .sec_two .title_cardSec div:hover .link_a{
+    color: #10608f;
+}
+/* !  --__--__ Trending Section End __---__--__--*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* !  --__--__ Tech, Health, Smart_home Section Start __---__--__--*/
+.tech .tech_container,
+.health .health_container,
+.smart_home .smart_home_container
+{
+    width: 100%;
+    height: auto;
+    margin: 0 0 2rem 0;
+}
+.tech .tech_container .section_bar,
+.health .health_container .section_bar,
+.smart_home .smart_home_container .section_bar
+{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    margin: 2rem 0 2rem 0;
+}
+.tech .tech_container .section_bar .section_div,
+.health .health_container .section_bar .section_div,
+.smart_home .smart_home_container .section_bar .section_div
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0.7rem 0;
+}
+.tech .tech_container .section_bar .section_div .tc_icon,
+.health .health_container .section_bar .section_div .ht_con
+{
+    color: #1195dd;
+    font-size: 2.1rem;
+}
+.smart_home .smart_home_container .section_bar .section_div img{
+    width: 2.2rem;
+    height: 1.9rem;
+}
+.tech .tech_container .section_bar .section_div span,
+.health .health_container .section_bar .section_div span,
+.smart_home .smart_home_container .section_bar .section_div span
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0 0 0 0.5rem;
+}
+.tech .tech_container .highlight_card,
+.health .health_container .highlight_card,
+.smart_home .smart_home_container .highlight_card
+{
+    margin: 0 2rem 2rem 2rem;
+    position: relative;
+}
+.tech .tech_container .highlight_card .img_link,
+.health .health_container .highlight_card .img_link,
+.smart_home .smart_home_container .highlight_card .img_link
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+.tech .tech_container .highlight_card a img,
+.health .health_container .highlight_card a img,
+.smart_home .smart_home_container .highlight_card a img
+{
+    width: 100%;
+    height: 50rem;
+    display: block;
+}
+.tech .tech_container .highlight_card .star,
+.health .health_container .highlight_card .star,
+.smart_home .smart_home_container .highlight_card .star
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tech .tech_container .highlight_card .little_title,
+.health .health_container .highlight_card .little_title,
+.smart_home .smart_home_container .highlight_card .little_title
+{
+    padding: 0.5rem;
+    background-color: #10608f;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #ececec;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.tech .tech_container .highlight_card .title_link,
+.health .health_container .highlight_card .title_link,
+.smart_home .smart_home_container .highlight_card .title_link
+{
+    width: 100%;
+    height: auto;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: #dddddd;
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+}
+.tech .tech_container .highlight_card .title_pera,
+.health .health_container .highlight_card .title_pera,
+.smart_home .smart_home_container .highlight_card .title_pera
+{
+    color: #1d1d1d;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0.2rem 0 0 0;
+}
+.tech .tech_container .small_product,
+.health .health_container .small_product,
+.smart_home .smart_home_container .small_product
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin: 0 2rem;
+}
+.tech .tech_container .small_product div,
+.health .health_container .small_product div,
+.smart_home .smart_home_container .small_product div
+{
+    position: relative;
+}
+.tech .tech_container .small_product div .img_link,
+.health .health_container .small_product div .img_link,
+.smart_home .smart_home_container .small_product div .img_link
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+.tech .tech_container .small_product div a img,
+.health .health_container .small_product div a img,
+.smart_home .smart_home_container .small_product div a img
+{
+    width: 100%;
+    height: 22rem;
+    display: block;
+    margin: 0 0 1rem 0;
+}
+.tech .tech_container .small_product div .star,
+.health .health_container .small_product div .star,
+.smart_home .smart_home_container .small_product div .star
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tech .tech_container .small_product div .little_title,
+.health .health_container .small_product div .little_title,
+.smart_home .smart_home_container .small_product div .little_title
+{
+    padding: 0.5rem;
+    background-color: #10608f;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #ececec;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.tech .tech_container .small_product div .title_link,
+.health .health_container .small_product div .title_link,
+.smart_home .smart_home_container .small_product div .title_link
+{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+.tech .tech_container .small_product div .description,
+.health .health_container .small_product div .description,
+.smart_home .smart_home_container .small_product div .description
+{
+    color: #1d1d1d;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0.2rem 0 0 0;
+}
+.tech .tech_container .small_product div:hover .title_link,
+.health .health_container .small_product div:hover .title_link,
+.smart_home .smart_home_container .small_product div:hover .title_link
+{
+    color: #10608f;
+}
+.tech .tech_container .highlight_card:hover .title_link,
+.health .health_container .highlight_card:hover .title_link,
+.smart_home .smart_home_container .highlight_card:hover .title_link
+{
+    color: #10608f;
+}
+.body_container .tech .tech_container .zmdi,
+.body_container .health .health_container .zmdi,
+.body_container .smart_home .smart_home_container .zmdi
+{
+    color: #ffb723;
+    font-size: 1.4rem;
+}
+.body_container .smart_home .smart_home_container .halfSar{
+    color: #ffb723;
+}
+.body_container .smart_home .smart_home_container .noneStar{
+    color: #adadad;
+}
+/* !  --__--__ Tech, Health, Smart_home Section Start End---__--__--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* !  --__--__  Pets, Sports Section Start Start---__--__--*/
+.pets .pets_container,
+.sports .sports_container
+{
+    width: 100%;
+    height: auto;
+    margin: 0 0 2rem 0;
+}
+.pets .pets_container .section_bar,
+.sports .sports_container .section_bar
+{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    margin: 2rem 0 2rem 0;
+}
+.pets .pets_container .section_bar .section_div,
+.sports .sports_container .section_bar .section_div
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0.7rem 0;
+}
+.pets .pets_container .section_bar .section_div .pt_icon,
+.sports .sports_container .section_bar .section_div .sp_icon
+{
+    color: #1195dd;
+    font-size: 2rem;
+}
+.pets .pets_container .section_bar .section_div span,
+.sports .sports_container .section_bar .section_div span
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0 0 0 0.5rem;
+}
+.pets .pets_container .highlight_card,
+.sports .sports_container .highlight_card
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1. 1fr);
+    grid-gap: 2rem;
+    margin: 0 2rem 2rem 2rem;
+    position: relative;
+}
+.pets .pets_container .highlight_card div,
+.sports .sports_container .highlight_card div
+{
+    position: relative;
+}
+.pets .pets_container .highlight_card .img_link,
+.sports .sports_container .highlight_card .img_link
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+.pets .pets_container .highlight_card a img,
+.sports .sports_container .highlight_card a img
+{
+    width: 100%;
+    height: 33rem;
+    display: block;
+}
+.pets .pets_container .highlight_card .star,
+.sports .sports_container .highlight_card .star
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.pets .pets_container .highlight_card .little_title,
+.sports .sports_container .highlight_card .little_title
+{
+    padding: 0.5rem;
+    background-color: #10608f;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #ececec;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.pets .pets_container .highlight_card .title_link,
+.sports .sports_container .highlight_card .title_link
+{
+    width: 100%;
+    height: auto;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.8rem;
+    background-color: #dddddd;
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+}
+.pets .pets_container .highlight_card .title_pera,
+.sports .sports_container .highlight_card .title_pera
+{
+    color: #1d1d1d;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0.2rem 0 0 0;
+}
+.pets .pets_container .small_product,
+.sports .sports_container .small_product
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin: 0 2rem;
+}
+.pets .pets_container .small_product div,
+.sports .sports_container .small_product div
+{
+    position: relative;
+}
+.pets .pets_container .small_product div .img_link,
+.sports .sports_container .small_product div .img_link
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+.pets .pets_container .small_product div a img,
+.sports .sports_container .small_product div a img
+{
+    width: 100%;
+    height: 22rem;
+    display: block;
+    margin: 0 0 1rem 0;
+}
+.pets .pets_container .small_product div .star,
+.sports .sports_container .small_product div .star
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.pets .pets_container .small_product div .little_title,
+.sports .sports_container .small_product div .little_title
+{
+    padding: 0.5rem;
+    background-color: #10608f;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #ececec;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.pets .pets_container .small_product div .title_link,
+.sports .sports_container .small_product div .title_link
+{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+.pets .pets_container .small_product div .description,
+.sports .sports_container .small_product div .description
+{
+    color: #1d1d1d;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0.2rem 0 0 0;
+}
+.pets .pets_container .highlight_card div:hover .title_link,
+.sports .sports_container .highlight_card div:hover .title_link
+{
+    color: #10608f;
+}
+.pets .pets_container .small_product div:hover .title_link,
+.sports .sports_container .small_product div:hover .title_link
+{
+    color: #10608f;
+}
+.body_container .pets .pets_container .zmdi,
+.body_container .sports .sports_container .zmdi
+{
+    color: #ffb723;
+    font-size: 1.4rem;
+}
+.body_container .smart_home .smart_home_container .halfSar{
+    color: #ffb723;
+}
+.body_container .smart_home .smart_home_container .noneStar{
+    color: #adadad;
+}
+/* !  --__--__  Pets, Sports Section Start End---__--__--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* !------- Media Screen Responsive Style */
+
+
+@media screen and (max-width: 860px){
+    /* !  --__--__Trending Section Start   __---__--__--*/
+    .trending_sec .trending_container .sec_one{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2,  auto);
+    }
+    .trending_sec .trending_container .sec_two .title_cardSec{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    /* !  --__--__Trending Section End   __---__--__--*/
+    /* !  --__--__ Tech, Health, Smart_home Section Start __---__--__--*/
+    .tech .tech_container .small_product,
+    .health .health_container .small_product,
+    .smart_home .smart_home_container .small_product
+    {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .tech .tech_container .highlight_card a img{
+        height: 30rem;
+    }
+    .health_container .highlight_card a img{
+        height: 30rem;
+    }
+    /* !  --__--__ Tech, Health, Smart_home Section End __---__--__--*/
+    /* !  --__--__  Pets, Sports Section Start Start---__--__--*/
+    .pets .pets_container .highlight_card,
+    .sports .sports_container .highlight_card
+    {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2. 1fr);
+    }
+    .pets .pets_container .small_product,
+    .sports .sports_container .small_product
+    {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5 1fr);
+    }
+    /* !  --__--__  Pets, Sports Section Start End---__--__--*/
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px){
+    /* !  --__--__ Tech, Health, Smart_home Section Start __---__--__--*/
+    .tech .tech_container .highlight_card a img,
+    .health .health_container .highlight_card a img,
+    .smart_home .smart_home_container .highlight_card a img
+    {
+        height: 28rem;
+    }
+    /* !  --__--__ Tech, Health, Smart_home Section End __---__--__--*/
+    /* !  --__--__Trending Section Start   __---__--__--*/
+    .trending_sec .title_post img{
+        height: 26rem;
+    }
+    /* !  --__--__Trending Section End   __---__--__--*/    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 545px){
+    /* !  --__--__Trending Section Start   __---__--__--*/
+    .trending_sec .trending_container .sec_two .title_cardSec{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .trending_sec .title_post img{
+        height: 20rem;
+    }
+    .trending_sec .trending_container .sec_one .title_post .header_link{
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    .trending_sec .trending_container .sec_one .title_link .link_title a{
+        font-size: 1.7rem;
+        letter-spacing: 0px;
+    }
+    .trending_sec .trending_container .sec_one .title_link a{
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    .trending_sec .trending_container .sec_two .title_cardSec .link_a{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    /* !  --__--__Trending Section End   __---__--__--*/    
+    /* !  --__--__ Tech, Health, Smart_home Section Start __---__--__--*/
+    .tech .tech_container .small_product,
+    .health .health_container .small_product,
+    .smart_home .smart_home_container .small_product
+    {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        justify-content: center;
+    }
+    .tech .tech_container .highlight_card a img,
+    .health .health_container .highlight_card a img,
+    .smart_home .smart_home_container .highlight_card a img
+    {
+        height: 18rem;
+    }
+    .tech .tech_container .highlight_card .title_link,
+    .health .health_container .highlight_card .title_link,
+    .smart_home .smart_home_container .highlight_card .title_link
+    {
+        font-size: 1.6rem;
+    }
+    .tech .tech_container .small_product div .title_link,
+    .health .health_container .small_product div .title_link,
+    .smart_home .smart_home_container .small_product div .title_link
+    {
+        font-size: 1.6rem;
+    }
+    .tech .tech_container .small_product div .description,
+    .health .health_container .small_product div .description,
+    .smart_home .smart_home_container .small_product div .description
+    {
+        font-size: 1.4rem;
+    }
+    .tech .tech_container .small_product div a img,
+    .health .health_container .small_product div a img,
+    .smart_home .smart_home_container .small_product div a img
+    {
+        width: 100%;
+        height: 18rem;
+        margin: 0 0 1rem 0;
+    }
+    /* !  --__--__ Tech, Health, Smart_home Section End __---__--__--*/
+
+    /* !  --__--__  Pets, Sports Section Start Start---__--__--*/
+    .pets .pets_container .small_product,
+    .sports .sports_container .small_product
+    {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+    }
+    .pets .pets_container .highlight_card a img,
+    .sports .sports_container .highlight_card a img
+    {
+        height: 18rem;
+    }
+    .pets .pets_container .small_product div a img,
+    .sports .sports_container .small_product div a img
+    {
+        height: 18rem;
+    }
+    .pets .pets_container .highlight_card .title_link,
+    .sports .sports_container .highlight_card .title_link
+    {
+        font-size: 1.6rem;
+    }
+    .pets .pets_container .highlight_card .title_pera,
+    .sports .sports_container .highlight_card .title_pera
+    {
+        font-size: 1.4rem;
+    }
+    .pets .pets_container .small_product div .title_link,
+    .sports .sports_container .small_product div .title_link
+    {
+        font-size: 1.6rem;
+    }
+    .pets .pets_container .small_product div .description,
+    .sports .sports_container .small_product div .description
+    {
+        font-size: 1.4rem;
+    }
+    /* !  --__--__  Pets, Sports Section Start ---__--__--*/
+}
+
+
+
+

@@ -1,0 +1,216 @@
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #212121;
+  color: #ececee;
+}
+
+.all_footer {
+  max-width: 1080px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr);
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr);
+      grid-template-rows: repeat(1, 1fr);
+}
+
+.footer_description {
+  max-width: 30rem;
+  padding: 0 1.5rem;
+}
+
+.link_sec {
+  max-width: 30rem;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  margin: 0 2rem;
+}
+
+.link_sec li {
+  list-style: none;
+  border-bottom: 1px solid #ececee;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.link_sec li a {
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #ececee;
+  text-transform: capitalize;
+}
+
+footer .follow_sec {
+  max-width: 30rem;
+  padding: 0 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .follow_sec h2 {
+  margin: 0 0 1rem 0;
+}
+
+.social_icon {
+  text-align: center;
+}
+
+.social_icon a {
+  color: #ececee;
+  padding: 0.1rem 0.7rem;
+  background-color: #009de6;
+  border-radius: 0.5rem;
+  margin: 0 0.5rem 0 0;
+}
+
+footer .all_footer .social_icon .f_icon {
+  font-size: 1.5rem;
+  line-height: 0;
+}
+
+.footer .all_footer .follow_sec .fa-twitter {
+  font-size: 1.5rem;
+  color: red;
+}
+
+.social_icon a:hover {
+  color: #ffffff;
+}
+
+.link_sec h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0.5rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.follow_sec h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_description p {
+  color: #c5c5c5;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 1.5rem 0 0 0;
+}
+
+footer .copyright {
+  width: 100%;
+  height: 5rem;
+  border-top: 1px solid #484848;
+}
+
+footer .copyright .copyright_container {
+  max-width: 1050px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.copyright p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  margin: 0 0 0 2rem;
+}
+
+footer .copyright .three_condition {
+  margin: 0 6rem 0 0;
+}
+
+footer .copyright .three_condition a {
+  color: #c5c5c5;
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin: 0 1rem 0 0;
+}
+
+.ft_years {
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 660px) {
+  .all_footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr);
+        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-rows: 9rem 22rem 9rem;
+        grid-template-rows: 9rem 22rem 9rem;
+  }
+  footer .follow_sec h2 {
+    margin: 0;
+  }
+  footer .all_footer > div {
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer .all_footer .follow_sec .social_icon {
+    margin: 1rem 0 1rem 0;
+  }
+  footer .copyright .copyright_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .copyright .three_condition {
+    margin: 0;
+  }
+  footer .copyright .three_condition a:last-child {
+    margin: 0;
+  }
+  .copyright p {
+    margin: 0;
+    padding: 0 0 0.4rem 0;
+  }
+}

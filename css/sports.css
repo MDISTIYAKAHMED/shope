@@ -1,0 +1,272 @@
+.sports .sports_container
+{
+    width: 100%;
+    height: auto;
+    margin: 0 0 2rem 0;
+}
+
+.sports .sports_container .section_bar
+{
+    width: 100%;
+    height: auto;
+    margin: 2rem 0 2rem 0;
+    padding: 0 2rem;
+}
+
+.sports .sports_container .section_bar .section_div
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0.7rem 0;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.sports .sports_container .section_bar .section_div .sp_icon
+{
+    color: #1195dd;
+    font-size: 2rem;
+}
+
+.sports .sports_container .section_bar .section_div span
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0 0 0 0.5rem;
+}
+
+.sports .sports_container .highlight_card
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1. 1fr);
+    grid-gap: 2rem;
+    margin: 0 2rem 2rem 2rem;
+    position: relative;
+}
+
+.sports .sports_container .highlight_card div
+{
+    position: relative;
+}
+
+.sports .sports_container .highlight_card .img_link
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.sports .sports_container .highlight_card a img
+{
+    width: 100%;
+    height: 33rem;
+    display: block;
+}
+
+.sports .sports_container .highlight_card .star
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.sports .sports_container .highlight_card .little_title
+{
+    padding: 0.5rem;
+    background-color: #10608f;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #ececec;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.sports .sports_container .highlight_card .title_link
+{
+    width: 100%;
+    height: auto;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.8rem;
+    background-color: #dddddd;
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+}
+
+.sports .sports_container .highlight_card .title_pera
+{
+    color: #1d1d1d;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0.2rem 0 0 0;
+}
+
+.sports .sports_container .small_product
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin: 0 2rem;
+}
+
+.sports .sports_container .small_product div
+{
+    position: relative;
+}
+
+.sports .sports_container .small_product div .img_link
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.sports .sports_container .small_product div a img
+{
+    width: 100%;
+    height: 22rem;
+    display: block;
+    margin: 0 0 1rem 0;
+}
+
+.sports .sports_container .small_product div .star
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.sports .sports_container .small_product div .little_title
+{
+    padding: 0.5rem;
+    background-color: #10608f;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #ececec;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.sports .sports_container .small_product div .title_link
+{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+
+.sports .sports_container .small_product div .description
+{
+    color: #1d1d1d;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0.2rem 0 0 0;
+}
+
+.sports .sports_container .highlight_card div:hover .title_link
+{
+    color: #10608f;
+}
+
+.sports .sports_container .small_product div:hover .title_link
+{
+    color: #10608f;
+}
+.body_container .pets .pets_container .zmdi,
+.body_container .sports .sports_container .zmdi
+{
+    color: #ffb723;
+    font-size: 1.4rem;
+}
+.body_container .smart_home .smart_home_container .halfSar{
+    color: #ffb723;
+}
+.body_container .smart_home .smart_home_container .noneStar{
+    color: #adadad;
+}
+
+@media screen and (max-width: 860px){
+
+    .sports .sports_container .highlight_card a img {
+        width: 100%;
+        height: 25rem;
+        display: block;
+    }
+
+    .sports .sports_container .small_product
+    {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5 1fr);
+    }
+
+}
+
+@media screen and (max-width: 660px){
+
+     .sports .sports_container .highlight_card
+    {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2. 1fr);
+    }
+
+    .sports .sports_container .highlight_card a img {
+        width: 100%;
+        height: 30rem;
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width: 545px){
+
+    
+    .sports .sports_container .small_product
+    {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+    }
+    
+    .sports .sports_container .highlight_card a img
+    {
+        height: 18rem;
+    }
+    
+    .sports .sports_container .small_product div a img
+    {
+        height: 18rem;
+    }
+    
+    .sports .sports_container .highlight_card .title_link
+    {
+        font-size: 1.6rem;
+    }
+    
+    .sports .sports_container .highlight_card .title_pera
+    {
+        font-size: 1.4rem;
+    }
+    
+    .sports .sports_container .small_product div .title_link
+    {
+        font-size: 1.6rem;
+    }
+    
+    .sports .sports_container .small_product div .description
+    {
+        font-size: 1.4rem;
+    }
+
+}
