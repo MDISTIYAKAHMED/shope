@@ -125,17 +125,6 @@
     text-align: center;
 }
 
-/* .trending_sec .trending_container .sec_two .btn_div a::before{
-    content: "";
-    width: 1.2rem;
-    height: 1.2rem;
-    border-radius: 3px;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translate(-65%,-50%) rotate(45deg);
-    background-color: #2f6e91;
-} */
 
 .trending_sec .trending_container .sec_two .btn_div span{
     background-color: #ececec;

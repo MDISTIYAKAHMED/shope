@@ -123,11 +123,12 @@
 .tech .tech_container .small_product div .little_title
 {
     padding: 0.5rem;
-    background-color: #10608f;
+    /* background-color: #10608f; */
+    background-color: #1abea6;
     text-transform: capitalize;
     font-weight: 400;
     font-size: 1.4rem;
-    color: #ececec;
+    color: #ffffff;
     position: absolute;
     left: 0;
     top: 0;
@@ -168,8 +169,41 @@
 .body_container .smart_home .smart_home_container .noneStar{
     color: #adadad;
 }
-/* !  --__--__ Tech, Health, Smart_home Section Start End---__--__--*/
 
+.body_container .tech .small_product .btn_div{
+    text-align: start;
+}
+.body_container .tech .small_product .btn_div a{
+    text-decoration: none;
+    color: #1abea6;
+    border: 2px solid #1abea6;
+    padding: 0.6rem 0.6rem;
+    margin: 1rem 0 0 0;
+    text-transform: capitalize;
+    border-radius: 0.4rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.body_container .tech .highlight_card .btn_hr{
+    text-align: start;
+}
+
+.body_container .tech .highlight_card .btn_hr a{
+    text-decoration: none;
+    color: #1abea6;
+    border: 2px solid #1abea6;
+    padding: 0.6rem 0.6rem;
+    margin: 1rem 0 0 0;
+    text-transform: capitalize;
+    border-radius: 0.4rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* !  --__--__ Tech, Health, Smart_home Section Start End---__--__--*/
 
 
 
@@ -179,7 +213,7 @@
         .tech .tech_container .small_product
         {
             grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(5, 1fr);
+            grid-template-rows: repeat(11, 1fr);
         }
         .tech .tech_container .highlight_card a img{
             height: 30rem;
@@ -202,7 +236,7 @@
     .tech .tech_container .small_product
     {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(9, 1fr);
+        grid-template-rows: repeat(21, 1fr);
         justify-content: center;
     }
     .tech .tech_container .highlight_card a img

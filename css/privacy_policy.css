@@ -23,4 +23,13 @@
   margin: 2rem 0;
   list-style-type: square;
 }
+
+.ck {
+  text-align: start;
+  margin: 1rem 0;
+}
+
+.ck_dv {
+  min-height: 100vh;
+}
 /*# sourceMappingURL=privacy_policy.css.map */
