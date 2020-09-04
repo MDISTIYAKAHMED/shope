@@ -1,8 +1,8 @@
 footer {
   width: 100%;
   height: auto;
-  background-color: #212121;
-  color: #ececee;
+  background-color: #ececee;
+  color: #333333;
 }
 
 .all_footer {
@@ -36,14 +36,14 @@ footer {
 
 .link_sec li {
   list-style: none;
-  border-bottom: 1px solid #ececee;
+  border-bottom: 1px solid #333333;
   padding: 0.5rem 0 0.5rem 0;
 }
 
 .link_sec li a {
   font-size: 1.7rem;
   text-decoration: none;
-  color: #ececee;
+  color: #333333;
   text-transform: capitalize;
 }
 
@@ -125,7 +125,7 @@ footer .all_footer .social_icon .f_icon {
 }
 
 .footer_description p {
-  color: #c5c5c5;
+  color: #333333;
   font-size: 1.5rem;
   font-weight: 400;
   text-transform: capitalize;
@@ -134,7 +134,7 @@ footer .all_footer .social_icon .f_icon {
 
 footer .copyright {
   width: 100%;
-  height: 5rem;
+  height: 6rem;
   border-top: 1px solid #484848;
 }
 
@@ -160,12 +160,16 @@ footer .copyright .copyright_container {
   margin: 0 0 0 2rem;
 }
 
+footer .copyright .three_condition a:hover{
+  text-decoration: underline;
+}
+
 footer .copyright .three_condition {
   margin: 0 6rem 0 0;
 }
 
 footer .copyright .three_condition a {
-  color: #c5c5c5;
+  color: #333333;
   text-decoration: none;
   font-size: 1.4rem;
   margin: 0 1rem 0 0;
@@ -184,6 +188,11 @@ footer .copyright .three_condition a {
     -ms-grid-rows: 9rem 22rem 9rem;
         grid-template-rows: 9rem 22rem 9rem;
   }
+
+  footer .copyright {
+    height: 7.5rem;
+  }
+
   footer .follow_sec h2 {
     margin: 0;
   }
@@ -209,6 +218,7 @@ footer .copyright .three_condition a {
   footer .copyright .three_condition a:last-child {
     margin: 0;
   }
+
   .copyright p {
     margin: 0;
     padding: 0 0 0.4rem 0;
