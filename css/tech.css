@@ -23,7 +23,7 @@
 }
 .tech .tech_container .section_bar .section_div .tc_icon
 {
-    color: #1195dd;
+    color: #1abea6;
     font-size: 2.1rem;
 }
 .tech .tech_container .section_bar .section_div span
@@ -60,7 +60,7 @@
 .tech .tech_container .highlight_card .little_title
 {
     padding: 0.5rem;
-    background-color: #10608f;
+    background-color: #1abea6;
     text-transform: capitalize;
     font-weight: 600;
     font-size: 1.4rem;
@@ -123,7 +123,6 @@
 .tech .tech_container .small_product div .little_title
 {
     padding: 0.5rem;
-    /* background-color: #10608f; */
     background-color: #1abea6;
     text-transform: capitalize;
     font-weight: 400;
@@ -150,11 +149,12 @@
 }
 .tech .tech_container .small_product div:hover .title_link
 {
-    color: #10608f;
+    color: #1abea6;
 }
 .tech .tech_container .highlight_card:hover .title_link
 {
-    color: #10608f;
+    
+    color: #1abea6;
 }
 .body_container .tech .tech_container .zmdi,
 .body_container .health .health_container .zmdi,
@@ -170,38 +170,7 @@
     color: #adadad;
 }
 
-.body_container .tech .small_product .btn_div{
-    text-align: start;
-}
-.body_container .tech .small_product .btn_div a{
-    text-decoration: none;
-    color: #1abea6;
-    border: 2px solid #1abea6;
-    padding: 0.6rem 0.6rem;
-    margin: 1rem 0 0 0;
-    text-transform: capitalize;
-    border-radius: 0.4rem;
-    display: inline-block;
-    font-size: 1.4rem;
-    font-weight: 600;
-}
 
-.body_container .tech .highlight_card .btn_hr{
-    text-align: start;
-}
-
-.body_container .tech .highlight_card .btn_hr a{
-    text-decoration: none;
-    color: #1abea6;
-    border: 2px solid #1abea6;
-    padding: 0.6rem 0.6rem;
-    margin: 1rem 0 0 0;
-    text-transform: capitalize;
-    border-radius: 0.4rem;
-    display: inline-block;
-    font-size: 1.4rem;
-    font-weight: 600;
-}
 
 /* !  --__--__ Tech, Health, Smart_home Section Start End---__--__--*/
 

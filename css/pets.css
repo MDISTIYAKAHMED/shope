@@ -22,7 +22,7 @@
 }
 .pets .pets_container .section_bar .section_div .pt_icon
 {
-    color: #1195dd;
+    color: #1abea6;
     font-size: 2rem;
 }
 .pets .pets_container .section_bar .section_div span
@@ -67,7 +67,7 @@
 .pets .pets_container .highlight_card .little_title
 {
     padding: 0.5rem;
-    background-color: #10608f;
+    background-color: #1abea6;
     text-transform: capitalize;
     font-weight: 600;
     font-size: 1.4rem;
@@ -130,7 +130,7 @@
 .pets .pets_container .small_product div .little_title
 {
     padding: 0.5rem;
-    background-color: #10608f;
+    background-color: #1abea6;
     text-transform: capitalize;
     font-weight: 400;
     font-size: 1.4rem;
@@ -156,11 +156,11 @@
 }
 .pets .pets_container .highlight_card div:hover .title_link
 {
-    color: #10608f;
+    color: #1abea6;
 }
 .pets .pets_container .small_product div:hover .title_link
 {
-    color: #10608f;
+    color: #1abea6;
 }
 .body_container .pets .pets_container .zmdi
 {
@@ -177,19 +177,6 @@
 .body_container .pets .pets_container .small_product .btn_div{
     text-align: start;
 }
-
-/* .body_container .pets .pets_container .small_product .btn_div a{
-    text-decoration: none;
-    color: #1abea6;
-    border: 2px solid #1abea6;
-    padding: 0.6rem 0.6rem;
-    margin: 1rem 0 0 0;
-    text-transform: capitalize;
-    border-radius: 0.4rem;
-    display: inline-block;
-    font-size: 1.4rem;
-    font-weight: 600;
-} */
 
 @media screen and (max-width: 860px){
     .pets .pets_container .small_product

@@ -29,7 +29,7 @@
 .tech .tech_container .section_bar .section_div .tc_icon,
 .health .health_container .section_bar .section_div .ht_con
 {
-    color: #1195dd;
+    color: #1abea6;
     font-size: 2.1rem;
 }
 .smart_home .smart_home_container .section_bar .section_div img{
@@ -82,7 +82,7 @@
 .smart_home .smart_home_container .highlight_card .little_title
 {
     padding: 0.5rem;
-    background-color: #10608f;
+    background-color: #1abea6;
     text-transform: capitalize;
     font-weight: 600;
     font-size: 1.4rem;
@@ -161,7 +161,7 @@
 .smart_home .smart_home_container .small_product div .little_title
 {
     padding: 0.5rem;
-    background-color: #10608f;
+    background-color: #1abea6;
     text-transform: capitalize;
     font-weight: 400;
     font-size: 1.4rem;
@@ -193,13 +193,13 @@
 .health .health_container .small_product div:hover .title_link,
 .smart_home .smart_home_container .small_product div:hover .title_link
 {
-    color: #10608f;
+    color: #1abea6;
 }
 .tech .tech_container .highlight_card:hover .title_link,
 .health .health_container .highlight_card:hover .title_link,
 .smart_home .smart_home_container .highlight_card:hover .title_link
 {
-    color: #10608f;
+    color: #1abea6;
 }
 .body_container .tech .tech_container .zmdi,
 .body_container .health .health_container .zmdi,
@@ -223,7 +223,7 @@
     .health .health_container .small_product
     {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(11, 1fr);
     }
     .health_container .highlight_card a img{
         height: 30rem;
@@ -250,7 +250,7 @@
     .health .health_container .small_product
     {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(9, 1fr);
+        grid-template-rows: repeat(21, 1fr);
         justify-content: center;
     }
     

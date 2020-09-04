@@ -23,8 +23,13 @@
 }
 .main .main_container .section_bar .section_div .bar_icon
 {
-    color: #1195dd;
+    color: #1abea6;
     font-size: 2.1rem;
+}
+.main .main_container .section_bar .section_div .bar_icon_ds
+{
+    color: #1abea6;
+    font-size: 2.5rem;
 }
 .main .main_container .section_bar .section_div span
 {
@@ -60,7 +65,7 @@
 .main .main_container .highlight_card .little_title
 {
     padding: 0.5rem;
-    background-color: #10608f;
+    background-color: #1abea6;
     text-transform: capitalize;
     font-weight: 600;
     font-size: 1.4rem;
@@ -123,7 +128,7 @@
 .main .main_container .small_product div .little_title
 {
     padding: 0.5rem;
-    background-color: #10608f;
+    background-color: #1abea6;
     text-transform: capitalize;
     font-weight: 400;
     font-size: 1.4rem;
@@ -149,11 +154,11 @@
 }
 .main .main_container .small_product div:hover .title_link
 {
-    color: #10608f;
+    color: #1abea6;
 }
 .main .main_container .highlight_card:hover .title_link
 {
-    color: #10608f;
+    color: #1abea6;
 }
 .body_container .main .main_container .zmdi,
 .body_container .health .health_container .zmdi,

@@ -32,7 +32,7 @@
     align-items: center;
     border-radius: 50%;
     margin: 0 1.5rem 0 0;
-    background-color: #2f6e91;
+    background-color: #1abea6;
 }
 .trending_sec .trending_container .sec_one .title_link .link_title a{
     font-size: 2rem;
@@ -52,7 +52,7 @@
     margin-top: -5px;
 }
 .trending_sec .trending_container .sec_one .title_post:hover .header_link{
-    color: #10608f;
+    color: #1abea6;
 }
 .trending_sec .trending_container .sec_one .title_link a{
     text-decoration: none;
@@ -64,7 +64,7 @@
     border-bottom: 1px dotted #000000;
 }
 .trending_sec .trending_container .sec_one a:hover{
-    color: #10608f;
+    color: #1abea6;
 }
 /* ? Trending Title Card  Section Start//  First  Five Card*/
 .trending_sec .trending_container .sec_two{
@@ -94,10 +94,10 @@
     margin-top: -5px;
 }
 .trending_sec .trending_container .sec_two .title_cardSec .link_a:hover{
-    color: #10608f;
+    color: #1abea6;
 }
 .trending_sec .trending_container .sec_two .title_cardSec div:hover .link_a{
-    color: #10608f;
+    color: #1abea6;
 }
 
 .trending_sec .trending_container .sec_two .btn_div{
@@ -109,13 +109,13 @@
 }
 .trending_sec .trending_container .sec_two .btn_div a{
     position: relative;
-    background-color: #2f6e91;
+    background-color: #1abea6;
     color: #ffffff;
     /* color: #000000; */
     font-weight: 400;
     padding: 0.8rem 1rem 1rem 0.5rem;
     text-decoration: none;
-    border: 2px solid #2f6e91;
+    border: 2px solid #1abea6;
     font-size: 1.4rem;
     text-transform: capitalize;
     border-radius: 0.4rem;
