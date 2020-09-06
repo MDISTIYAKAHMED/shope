@@ -1,0 +1,60 @@
+
+.container{
+    max-width: 100rem;
+    padding: 1rem 2rem;
+}
+
+.container .first_part  h1,
+.container .first_part h2,
+.container .first_part  h3
+.container .first_part  h4{
+    margin: 1rem 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container .all_documents  h1,
+.container .all_documents h2,
+.container .all_documents  h3
+.container .all_documents  h4{
+    margin: 1rem 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container .first_part div ul li{
+    margin: 1rem 0;
+}
+
+.container .all_documents p{
+    margin: 1rem 0;
+}
+
+.container .all_documents .secund_part h2{
+    margin: 1rem 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container .all_documents div h1,
+.container .first_part div h2,
+.container .first_part div h3,
+.container .first_part div h4
+{
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.container .first_part p{
+    margin: 1rem 0;
+}
+
+.container .main_container h2{
+    margin: 1rem 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container .main_container p{
+    margin: 1rem 0;
+}
