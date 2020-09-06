@@ -134,8 +134,9 @@ footer .all_footer .social_icon .f_icon {
 
 footer .copyright {
   width: 100%;
-  height: 6rem;
+  height: auto;
   border-top: 1px solid #484848;
+  padding: 1.5rem 1rem;
 }
 
 footer .copyright .copyright_container {
@@ -157,7 +158,6 @@ footer .copyright .copyright_container {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 1.4rem;
-  margin: 0 0 0 2rem;
 }
 
 footer .copyright .three_condition a:hover{
@@ -166,18 +166,30 @@ footer .copyright .three_condition a:hover{
 
 footer .copyright .three_condition {
   margin: 0 6rem 0 0;
+  width: 50%;
+  text-align: end;
 }
 
-footer .copyright .three_condition a {
+footer .copyright .three_condition a{
   color: #333333;
   text-decoration: none;
   font-size: 1.4rem;
   margin: 0 1rem 0 0;
 }
 
+footer .copyright .three_condition a:last-child{
+  margin: 0;
+}
+
 .ft_years {
   font-size: 1.6rem;
 }
+footer .copyright_pera  {
+  width: 50%;
+  text-align: start;
+}
+
+
 
 @media screen and (max-width: 660px) {
   .all_footer {
@@ -189,8 +201,19 @@ footer .copyright .three_condition a {
         grid-template-rows: 9rem 22rem 9rem;
   }
 
+  footer .copyright .three_condition {
+    margin: 0 6rem 0 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .copyright_pera  {
+    width: 100%;
+    text-align: center;
+  }
+
   footer .copyright {
-    height: 7.5rem;
+    height: auto;
   }
 
   footer .follow_sec h2 {

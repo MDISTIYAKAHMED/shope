@@ -335,7 +335,7 @@ header {
       right: 100%;
       -webkit-transition: all 0.5s ease;
       transition: all 0.5s ease;
-      width: 47.5%;
+      width: 50%;
       height: calc(100vh - 6rem);
     }
     header .nav .menu_container.active_menu {
